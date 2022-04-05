@@ -1,0 +1,17 @@
+the-internet:
+
+  login-link: "linktext:Form Authentication"
+  checkboxes-link: "linktext:Checkboxes"
+  ad-link: "linktext:Entry Ad"
+
+  login:
+    username: "id:username"
+    password: "id:password"
+    result:
+      result-message: "class:success"
+
+  checkboxes:
+    checkboxes-form: "id:checkboxes"
+
+  entry-ad:
+    ad-frame: "id:modal"

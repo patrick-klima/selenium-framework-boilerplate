@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke Tests" parallel="methods" thread-count="3">
+
+    <parameter name="baseUrl" value="https://the-internet.herokuapp.com/"/>
+
+    <parameter name="browserName" value="chrome" />
+    <parameter name="browserVersion" value="99" />
+
+    <test name="Authentication Tests">
+        <classes>
+            <class name="tests.FormAuthenticationTests"/>
+        </classes>
+    </test>
+
+    <test name="Checkbox Tests">
+        <classes>
+            <class name="tests.CheckboxTests"/>
+        </classes>
+    </test>
+
+    <test name="Entry Ad Tests">
+        <classes>
+            <class name="tests.EntryAdTests"/>
+        </classes>
+    </test>
+
+</suite>
