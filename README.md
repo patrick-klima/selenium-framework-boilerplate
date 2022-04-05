@@ -56,8 +56,7 @@ Now using the ``getLocator`` method whenever you need a locator for ``driver.fin
 public void canLoginWithValidData() {  
     DriverUtils.findElement("login/username").sendKeys("tomsmith");
     DriverUtils.findElement("login/password").sendKeys("mySecretPW!");
-  
-	DriverUtils.findElement("login/password").submit();
+    DriverUtils.findElement("login/password").submit();
 	
     assertThat(DriverUtils.checkElementExist("login/result/result-message")).isTrue();  
 }
