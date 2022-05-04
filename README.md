@@ -1,7 +1,7 @@
 
 # Selenium Framework Boilerplate
 
-This project aims to provide a Selenium WebDriver skeleton for writing maintainable tests. New projects can clone this code and start with a solid foundation.
+This project aims to provide a modern Selenium WebDriver skeleton for writing maintainable tests. New projects can clone this code and start with a solid foundation.
 
 ## Features
 
