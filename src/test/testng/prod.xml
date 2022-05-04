@@ -3,6 +3,10 @@
 
 <suite name="Smoke Tests" parallel="methods" thread-count="3">
 
+    <listeners>
+        <listener class-name="listeners.AnnotationTransformer"/>
+    </listeners>
+
     <parameter name="baseUrl" value="https://the-internet.herokuapp.com/"/>
 
     <parameter name="browserName" value="chrome" />

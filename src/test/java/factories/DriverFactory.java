@@ -6,9 +6,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testcontainers.containers.BrowserWebDriverContainer;
-import org.testcontainers.containers.DefaultRecordingFileFactory;
-import org.testcontainers.utility.DockerImageName;
 
 import java.io.File;
 import java.net.MalformedURLException;

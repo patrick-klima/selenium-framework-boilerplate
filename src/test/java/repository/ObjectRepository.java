@@ -57,7 +57,7 @@ public class ObjectRepository {
             ObjectMapper jsonWriter = new ObjectMapper();
             return jsonWriter.writeValueAsString(obj);
         } catch (JsonMappingException mappingException) {
-            log.error("Unable to map Yaml to JSON. Please check the syntax of the YAML repository file and try again. Detailed report: " + mappingException.getLocalizedMessage());
+            log.error("Unable to map Ya0ml to JSON. Please check the syntax of the YAML repository file and try again. Detailed report: " + mappingException.getLocalizedMessage());
             Assert.fail();
 
         } catch (JsonProcessingException processingException) {
